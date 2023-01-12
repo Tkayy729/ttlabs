@@ -1,16 +1,20 @@
+package solvedAlgorithms;
+
 import java.util.*;
 
-public class Hey {
+public class Answer {
     public static void main(String[] args) {
-powersOfTwo(4);
 
-        System.out.println(grow(new int[]{1,2,4,0}));
+        int[][] arrays = new int[3][];
 
+        arrays[0] = new int[] {5, 7, 6, 4};
+        arrays[1] = new int[] {1, 3, 1, 8, 6};
+        arrays[2] = new int[] {9, 2, 3, 5};
     }
 
 
     public static int grow(int[] x){
-     return Arrays.stream(x).reduce((left, right) -> left*right ).getAsInt();
+        return Arrays.stream(x).reduce((left, right) -> left*right ).getAsInt();
 
     }
 
@@ -81,6 +85,6 @@ powersOfTwo(4);
 //            }
 //        }
 //        System.out.println(str.toString());
-   }
+    }
 
 }
