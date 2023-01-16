@@ -3,14 +3,12 @@ package solvedAlgorithms;
 import java.util.*;
 
 public class Answer {
+
     public static void main(String[] args) {
-
-        int[][] arrays = new int[3][];
-
-        arrays[0] = new int[] {5, 7, 6, 4};
-        arrays[1] = new int[] {1, 3, 1, 8, 6};
-        arrays[2] = new int[] {9, 2, 3, 5};
+     convertToCamel("hello_me_hi");
     }
+
+
 
 
     public static int grow(int[] x){
@@ -47,7 +45,30 @@ public class Answer {
                 .toString();
 
         return Optional.of(collect);
-    }
+    };
+
+    public static String convertToCamel(String str){
+
+        StringBuilder strin = new StringBuilder(str);
+
+        char[] characters = str.toCharArray();
+
+        for(int i = 0; i< characters.length; i++){
+            if((strin.charAt(i)== '_' || strin.charAt(i) == '-') && strin.charAt(i) != strin.charAt(characters.length -1)) {
+                characters[i+1] = Character.toUpperCase(characters[i+1]);
+            }
+        }
+
+        StringBuilder finalString = new StringBuilder();
+
+
+        for(int i = 0; i < characters.length; i++){
+            if(characters[i] != '-' || characters[i] != '_'){
+                finalString.append(characters[i]);
+            }
+        }
+        return finalString.toString();
+    };
 
     public static void solution(int n) {
 
@@ -62,29 +83,7 @@ public class Answer {
         romanNumerals.put(1000, 'M');
 
         System.out.println(getKeysJava8Optional(romanNumerals, 'X'));
-//
-//        List<Character> roman = new ArrayList<>();
-//
-//
-//
-//
-//
-//
-//        List<Integer> list = new ArrayList<>();
-//
-//        for (Integer key : romanNumerals.keySet()) {
-//            list.add(key);
-//        }
-//        Collections.sort(list);
-//        Collections.reverse(list);
-//        StringBuilder str = new StringBuilder();
-//        for (int i : list){
-//            while( n >= i){
-//                n = n -i;
-//                str.append(romanNumerals.get(i));
-//            }
-//        }
-//        System.out.println(str.toString());
+
     }
 
 }

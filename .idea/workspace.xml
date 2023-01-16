@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c089ab33-7c52-4903-bec3-63db5c3de4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/enforced/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/enforced/BankPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/enforced/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/enforced/LoanPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/enforced/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/voilates/BankPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/voilates/LoanPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceSegregationPrinciple/voilates/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assets/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assets/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/FlyingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/SwimmingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/secondExample/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/CalculatorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srp/Text/TextManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srp/Text/TextPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +43,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -66,20 +62,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/emmanuel/Desktop/ttlabs/src/main/java/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+    "last_opened_file_path": "C:/Users/emmanuel.tweneboah/Desktop/Turntabl/ttlabs-studies"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/assets" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,12 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672753975160</updated>
-      <workItem from="1673800326345" duration="3998000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
