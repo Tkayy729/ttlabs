@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c089ab33-7c52-4903-bec3-63db5c3de4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/PayPalPaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/Stripe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/violate/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/violate/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/violate/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/violate/Stripe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/secondExample/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/secondExample/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/secondExample/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/secondExample/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/PayPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DependencyInversion/enforced/PayPal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
