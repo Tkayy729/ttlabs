@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c089ab33-7c52-4903-bec3-63db5c3de4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/FlyingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/SwimmingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/firstExample/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LiskovSubstitution/secondExample/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/CalculatorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openAndClosed/Calculator/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/srp/Text/TextManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/srp/Text/TextPrinter.java" afterDir="false" />
+    <list default="true" id="e582a250-cde0-467f-864e-495741a0a7cb" name="Changes" comment="interface seg princ.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/classGenerics/PrintSomething.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Generics/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generics/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/NoFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/NoFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/RedDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/RedDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +28,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Emmanuel Tweneboah Koduah &lt;emmanueltweneboah71@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Generics/Demo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Generics/classGenerics/PrintSomething.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Demo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Duck.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyBehaviour.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyWithWings.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/MallardDuck.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/NoFly.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StrategyDesignPattern/RedDuck.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,18 +70,52 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/emmanuel.tweneboah/Desktop/Turntabl/ttlabs-studies"
+    "last_opened_file_path": "C:/Users/emmanuel.tweneboah/Desktop/codewars-backend",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="StrategyDesignPattern" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solvedAlgorithms.Answer" />
+      <module name="ttlabs-studies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solvedAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Answer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c089ab33-7c52-4903-bec3-63db5c3de4d8" name="Changes" comment="" />
+      <changelist id="e582a250-cde0-467f-864e-495741a0a7cb" name="Changes" comment="interface seg princ." />
       <created>1672753975160</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672753975160</updated>
     </task>
+    <task id="LOCAL-00001" summary="interface seg princ.">
+      <created>1673889650835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673889650835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="interface seg princ." />
+    <option name="LAST_COMMIT_MESSAGE" value="interface seg princ." />
   </component>
 </project>

@@ -1,2 +1,5 @@
-package StrategyDesignPattern;public interface FlyBehaviour {
+package StrategyDesignPattern;
+
+public interface FlyBehaviour {
+     void fly();
 }

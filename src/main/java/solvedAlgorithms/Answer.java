@@ -5,15 +5,27 @@ import java.util.*;
 public class Answer {
 
     public static void main(String[] args) {
-     convertToCamel("hello_me_hi");
+    List<String> planA = new ArrayList<>();
+    planA.add("Accra");
+    planA.add("Bono");
+    planA.add("Tardi");
+        System.out.println("plan A: " + planA);
+        System.out.println("----------------");
+      List<String> planB =  replan(planA, "Tardi", "Konongo");
+        System.out.println("plan A: " + planA);
+        System.out.println("plan B: " + planB);
+
     }
 
-
-
+    static List<String> replan(List<String> plan, String beforeCity, String newCity){
+        int beforeCityIndex = plan.indexOf(beforeCity);
+        List<String> planB = new ArrayList<>(plan);
+        planB.add(beforeCityIndex, newCity);
+        return planB;
+    }
 
     public static int grow(int[] x){
         return Arrays.stream(x).reduce((left, right) -> left*right ).getAsInt();
-
     }
 
     public static long[] powersOfTwo(int n){
@@ -85,5 +97,16 @@ public class Answer {
         System.out.println(getKeysJava8Optional(romanNumerals, 'X'));
 
     }
+
+    public static void arrayDiff(int[] a, int[] b) {
+        Map<Integer, Integer> visitedElements = new HashMap<>();
+        for(int i = 0; i< a.length; i++){
+            visitedElements.put(i, a[i]);
+        }
+
+        System.out.println(visitedElements);
+    }
+
+
 
 }
