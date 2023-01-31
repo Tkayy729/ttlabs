@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e582a250-cde0-467f-864e-495741a0a7cb" name="Changes" comment="interface seg princ.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/classGenerics/PrintSomething.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generics/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generics/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/FlyWithWings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/NoFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/NoFly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/RedDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StrategyDesignPattern/RedDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedAlgorithms/Answer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/emmanuel.tweneboah/Desktop/codewars-backend",
+    "last_opened_file_path": "C:/Users/emmanuel.tweneboah/Downloads/Oauth-authorization-server",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>

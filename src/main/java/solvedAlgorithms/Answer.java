@@ -5,17 +5,35 @@ import java.util.*;
 public class Answer {
 
     public static void main(String[] args) {
-    List<String> planA = new ArrayList<>();
-    planA.add("Accra");
-    planA.add("Bono");
-    planA.add("Tardi");
-        System.out.println("plan A: " + planA);
-        System.out.println("----------------");
-      List<String> planB =  replan(planA, "Tardi", "Konongo");
-        System.out.println("plan A: " + planA);
-        System.out.println("plan B: " + planB);
+        int [] nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 
+        createPhoneNumber(nums);
+ spinWords("emocleW");
     }
+
+    public static String spinWords(String sentence) {
+     String[] strings = sentence.split("\s+");
+     ArrayList<String> res = new ArrayList<>();
+     StringBuilder stringBuilder = new StringBuilder();
+     for (int i = 0; i< strings.length; i++){
+         if(strings[i].length() >= 5){
+             stringBuilder = new StringBuilder(strings[i]);
+             stringBuilder.reverse();
+             res.add(String.valueOf(stringBuilder));
+         } else
+         res.add(strings[i]);
+     }
+        System.out.println(res);
+        return sentence;
+    }
+
+    public static String createPhoneNumber(int[] numbers) {
+
+          String result = "("+numbers[0]+""+numbers[1]+""+numbers[2]+")"+" "+numbers[3]+""+numbers[4]+""+numbers[5]+"-"+numbers[6]+""+numbers[7]+""+numbers[8]+""+numbers[9];
+        System.out.println(result);
+        return result;
+    }
+
 
     static List<String> replan(List<String> plan, String beforeCity, String newCity){
         int beforeCityIndex = plan.indexOf(beforeCity);
@@ -105,6 +123,43 @@ public class Answer {
         }
 
         System.out.println(visitedElements);
+    }
+
+    public static List<Character> difference(Collection<Character> a, Collection<Character> b) {
+        Set<Character> setA = new HashSet<>(a);
+
+        Set<Character> setB = new HashSet<>(b);
+        System.out.println(setA);
+        System.out.println(setB);
+
+        if(setA.equals(setB)){
+            return List.of();
+        }
+        if(setA.isEmpty() && setB.isEmpty()){
+            return List.of();
+        }
+        if(setA.isEmpty() && setB != null){
+            return setB.stream().sorted().toList();
+        }
+        if(setB.isEmpty() && setA != null){
+            return setA.stream().sorted().toList();
+        }
+
+        Iterator<Character> iterator = setA.iterator();
+        while (iterator.hasNext()){
+            Character i = iterator.next();
+            if(setB.contains(i)){
+                iterator.remove();
+                setB.remove(i);
+            }
+        }
+        for (Character character : setB) {
+            setA.add(character);
+        }
+        for (Character character: setA.stream().sorted().toList()){
+            System.out.println(character);
+        }
+       return setA.stream().sorted().toList();
     }
 
 
